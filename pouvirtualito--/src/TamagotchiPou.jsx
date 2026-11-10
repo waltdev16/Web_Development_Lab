@@ -1,3 +1,9 @@
+import { useState } from "react";
+
+import happy from "./assets/happy.png";
+import hungry from "./assets/hungry.jpg";
+import sleepy from "./assets/sleepy.jpg";
+
 export default function TamagotchiPou() {
   // 1. Estado inicial de la emoción
   const [emocion, setEmocion] = useState("FELIZ"); // Valores posibles: "FELIZ", "HAMBRIENTO", "SUENO"
