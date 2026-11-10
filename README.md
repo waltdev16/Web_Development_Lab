@@ -23,10 +23,11 @@ These exercises were developed as part of my programming practice, with a focus 
 - **Vite:** Development tooling for React applications.
 - **Git & GitHub:** Version control and repository management.
 
+
 ## Repository Structure
 
 ```text
-practicasWalterSantos/
+Web_Development_Lab/
 ├── Practica1css/ ... Practica9css/
 ├── Desafio5/
 ├── React/
@@ -35,8 +36,16 @@ practicasWalterSantos/
 │   ├── Practica7react/
 │   └── Practica8react/
 ├── pouvirtualito--/
+├── index.html
 └── README.md
 ```
+### Project Organization
+
+- **CSS Practices:** HTML structure, styling, layouts, and visual design exercises.
+- **HTML/CSS Challenge:** Additional practical exercises.
+- **React Practices:** Component-based development with React and Vite.
+- **Virtual Pet:** A React exercise featuring an interactive virtual pet.
+- **Practice Gallery:** A GitHub Pages website that provides direct access to selected HTML and CSS exercises.
 
 ## Learning Objectives
 
