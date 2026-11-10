@@ -4,6 +4,12 @@
 
 This repository documents my learning journey in web development, from basic HTML structure and CSS styling to interactive applications and React components.
 
+## Live Demo
+
+Explore the HTML and CSS exercises directly in your browser.
+
+**[View Interactive Practice Gallery](https://waltdev16.github.io/Web_Development_Lab/)**
+
 ## About
 
 These exercises were developed as part of my programming practice, with a focus on strengthening frontend development skills and learning version control with Git and GitHub.
