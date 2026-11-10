@@ -1,0 +1,148 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Web Development Practice | Walter Santos</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            padding: 48px 20px;
+            background: #0d1117;
+            color: #e6edf3;
+            font-family: system-ui, sans-serif;
+        }
+
+        main {
+            max-width: 900px;
+            margin: auto;
+        }
+
+        header {
+            margin-bottom: 36px;
+        }
+
+        h1 {
+            font-size: clamp(28px, 5vw, 42px);
+            margin-bottom: 12px;
+        }
+
+        p {
+            color: #8b949e;
+            line-height: 1.7;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+            gap: 16px;
+        }
+
+        .card {
+            display: block;
+            padding: 24px;
+            background: #161b22;
+            border: 1px solid #30363d;
+            border-radius: 12px;
+            color: inherit;
+            text-decoration: none;
+            transition: border-color 0.2s, transform 0.2s;
+        }
+
+        .card:hover {
+            border-color: #58a6ff;
+            transform: translateY(-3px);
+        }
+
+        .card h2 {
+            margin: 0 0 8px;
+            font-size: 18px;
+        }
+
+        .card p {
+            margin: 0;
+            font-size: 14px;
+        }
+
+        footer {
+            margin-top: 40px;
+            text-align: center;
+            font-size: 14px;
+        }
+
+        footer a {
+            color: #58a6ff;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <header>
+            <h1>Web Development Practice</h1>
+            <p>
+                A collection of HTML and CSS exercises
+                documenting my frontend development journey.
+            </p>
+        </header>
+
+        <section class="grid">
+            <a class="card" href="Practica2css/index.html">
+                <h2>CSS Practice 02</h2>
+                <p>View exercise</p>
+            </a>
+
+            <a class="card" href="Practica3css/index.html">
+                <h2>CSS Practice 03</h2>
+                <p>View exercise</p>
+            </a>
+
+            <a class="card" href="Practica4css/index.html">
+                <h2>CSS Practice 04</h2>
+                <p>View exercise</p>
+            </a>
+
+            <a class="card" href="Practica5css/index.html">
+                <h2>CSS Practice 05</h2>
+                <p>View exercise</p>
+            </a>
+
+            <a class="card" href="Practica6css/index.html">
+                <h2>CSS Practice 06</h2>
+                <p>View exercise</p>
+            </a>
+
+            <a class="card" href="Practica7css/index.html">
+                <h2>CSS Practice 07</h2>
+                <p>View exercise</p>
+            </a>
+
+            <a class="card" href="Practica8css/index.html">
+                <h2>CSS Practice 08</h2>
+                <p>View exercise</p>
+            </a>
+
+            <a class="card" href="Practica9css/index.html">
+                <h2>CSS Practice 09</h2>
+                <p>View exercise</p>
+            </a>
+        </section>
+
+        <footer>
+            <p>
+                Created by Walter Santos ·
+                <a href="https://github.com/waltdev16/practicasWalterSantos">
+                    View Source Code
+                </a>
+            </p>
+        </footer>
+    </main>
+</body>
+</html>
